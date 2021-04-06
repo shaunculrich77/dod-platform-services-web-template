@@ -1,0 +1,5 @@
+client:
+  container_name: client
+  restart: always
+  build: .
+  ports: ["8080:8080"]
