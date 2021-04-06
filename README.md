@@ -1,4 +1,4 @@
-# hello-world-v2
+# dod-external-integrations-template
 
 ## Project setup
 
