@@ -1,11 +1,16 @@
-const baseConfig = require('@doctorondemand/dod-webclient-shared/configs.js')
-    .jest;
+// const baseConfig = require('@doctorondemand/dod-webclient-shared/configs.js')
+//     .jest;
 
 module.exports = {
     ...baseConfig,
     // TODO: These probably shouldn't exist
     collectCoverageFrom: [
-        ...baseConfig.collectCoverageFrom,
+        'src/**/*.{js,vue}',
+        '!**/node_modules/**',
+        '!**/.eslintrc.js',
+        '!**/*.stories.js',
+        // Temporarily excluding vue js from coverage as it's broken, see https://github.com/vuejs/vue-jest/issues/244
+        '!src/components/**/*.js',
         // Exclusing Vue JS coverage from modules
         '!src/modules/**/components/**/*.js',
         '!src/modules/**/pages/**/*.js',
