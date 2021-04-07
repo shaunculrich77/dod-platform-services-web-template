@@ -1,0 +1,91 @@
+$dod-blue: #004a7d;
+$dod-bright-blue: #2b90d9;
+$dod-emerald: #1abc9c;
+$dod-golden: #f0ad4e;
+$dod-heart: #e85a71;
+$dod-white: #ffffff;
+
+$dod-text-dark: #3a3b3f;
+$dod-light-gray: #f9f9f9;
+$dod-medium-gray: #dddfe2;
+$dod-dark-gray: #90949c;
+$dod-very-dark-grey: #333333;
+$dod-accessible-gray: #6e7381;
+
+$brand-primary: $dod-blue;
+$brand-success: $dod-emerald;
+$brand-info: $dod-bright-blue;
+$brand-danger: $dod-heart;
+$brand-warning: $dod-golden;
+
+//colors
+$font-size-base: 14px;
+$teal-color: $dod-bright-blue;
+$blue-color: $dod-bright-blue;
+$blue-color-light: lightblue;
+$brand-primary: $blue-color;
+$pink-color: $dod-heart;
+$light-gray-color: $dod-light-gray;
+$dod-gray-border-color: $dod-medium-gray;
+$dod-medium-light-gray: $dod-light-gray;
+$medium-gray-color: $dod-dark-gray;
+$dark-gray-color: $dod-text-dark;
+$background-color: $dod-light-gray;
+$accent-color: $dod-medium-gray;
+$stroke-color: $dark-gray-color;
+$dod-light-text-color: $dod-dark-gray;
+$dark-text-color: $dod-text-dark;
+$white: #fff;
+$dod-error: $dod-heart;
+
+// sizing
+$max-width: 1600px;
+$mac-air-width: 1024px;
+
+$z-index-notifications: 500;
+
+$dod-chart-tab-height: 42px;
+
+$dod-z-index-modal-background: 1040;
+$dod-z-index-drawer-background: 850; /// This is in the bootstrap variables.  Only here for reference.  Not changable
+$dod-z-index-drawer: 900; /// This is in the bootstrap variables.  Only here for reference.  Not changable
+$dod-z-index-modal: 1050; /// This is in the bootstrap variables.  Only here for reference.  Not changable
+$dod-z-index-modal-popover: 1500;
+$dod-z-index-local-video: 700;
+$dod-z-index-popover: 1500;
+$dod-z-index-popover-background: 1400;
+$dod-support-addition-height: 4rem;
+$dod-primary-header-font-size: 1.2rem;
+$dod-secondary-header-font-size: 1.2rem;
+$dod-modal-header-height: 2rem;
+$dod-header-height: 6rem;
+$dod-heading-height: 4rem;
+
+// Fonts
+$line-height-standard: 1.42857143;
+$dod-font-family-base: HelveticaNeue, Sans-Serif;
+
+// Components
+
+// Input
+$dod-input-label-inline-static-width: 96px;
+
+// PageSubhead
+$dod-page-subhead-content-height: 34px;
+$dod-page-subhead-vertical-padding: 12px;
+$dod-page-subhead-horizontal-padding: 16px;
+$dod-page-subhead-height: $dod-page-subhead-content-height +
+    ($dod-page-subhead-vertical-padding * 2);
+$dod-page-subhead-background: $dod-light-gray;
+$dod-page-subhead-border: 1px solid $dod-medium-gray;
+$dod-page-subhead-title-color: $dod-text-dark;
+$dod-page-subhead-title-font: $dod-font-family-base;
+$dod-page-subhead-title-size: 16px;
+$dod-page-subhead-title-weight: 500;
+
+// Outline
+$dod-outline-focused-color: $dod-bright-blue;
+$dod-outline-error-color: $dod-heart;
+$dod-outline-offset: 0px;
+$dod-outline-style: solid;
+$dod-outline-width: 2px;

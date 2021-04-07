@@ -1,0 +1,11 @@
+@import '@/style/site.scss';
+
+img {
+    width: 4em;
+    height: auto;
+}
+
+.images-divider {
+    border-top: 1px solid $dod-blue;
+    padding: 2em 5em;
+}

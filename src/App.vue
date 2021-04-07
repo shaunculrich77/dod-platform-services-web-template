@@ -9,6 +9,7 @@
 </template>
 
 <style lang="scss">
+@import '@/style/vars';
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -25,7 +26,7 @@
         color: #9db1c4;
 
         &.router-link-exact-active {
-            color: #2c3e50;
+            color: $dod-blue;
         }
     }
 }

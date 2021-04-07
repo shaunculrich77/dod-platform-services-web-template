@@ -1,0 +1,16 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'vars';
+
+* {
+    line-height: initial;
+}
+
+html {
+    font-size: $font-size-base;
+    font-family: $dod-font-family-base;
+}
+
+body {
+    background: $white;
+    font-family: $dod-font-family-base;
+}
