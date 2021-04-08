@@ -20,9 +20,9 @@ echo "Installing mkcert CA to root store"
 mkcert -install
 
 echo "Generating cert for common local domains"
-mkcert localhost
+mkcert local.dod.la
 
 echo "Moving certificates into place for Local Development"
 mkdir -p certs
-mv "localhost.pem" certs/localhost.pem
-mv "localhost-key.pem" certs/localhost-key.pem
+mv "local.dod.la.pem" certs/local.dod.la.pem
+mv "local.dod.la-key.pem" certs/local.dod.la-key.pem

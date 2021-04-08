@@ -1,5 +1,6 @@
 client:
-  container_name: client
-  restart: always
-  build: .
-  ports: ["8080:8080"]
+    container_name: client
+    hostname: local.dod.la
+    restart: always
+    build: .
+    ports: ['8085:8085']
