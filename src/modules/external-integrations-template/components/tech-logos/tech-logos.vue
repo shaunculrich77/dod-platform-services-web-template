@@ -5,6 +5,13 @@
         </div>
         <div class="px-4">
             <img
+                src="@/assets/kotlin.png"
+                alt="KMM"
+                title="Kotlin Multiplatform Mobile"
+            />
+        </div>
+        <div class="px-4">
+            <img
                 src="@/assets/JavaScript-logo.png"
                 alt="JavaScript"
                 title="JavaScript"
