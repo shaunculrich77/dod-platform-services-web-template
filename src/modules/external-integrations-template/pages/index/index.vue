@@ -5,7 +5,7 @@
             alt="Doctor on Deman"
             src="@/assets/DoD_logo.png"
         />
-        <h2 class="p-4">External Integrations Web Template</h2>
+        <h2 class="p-4">{{ title }}</h2>
         <div>
             <tech-logos></tech-logos>
         </div>

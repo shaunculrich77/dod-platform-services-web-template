@@ -5,4 +5,14 @@ export default {
     components: {
         TechLogos,
     },
+    data() {
+        return {
+            title: 'External Integrations Web Template',
+        };
+    },
+    methods: {
+        sum(a, b) {
+            return a + b;
+        },
+    },
 };
