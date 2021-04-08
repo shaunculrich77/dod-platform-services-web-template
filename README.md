@@ -29,7 +29,3 @@ HTTPS needs set up. Utility script needs to run to set this up
 2. $ ./tools/start
 3. Go to https://localhost:8080 (realizing this needs to change, this is just temporary)
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
