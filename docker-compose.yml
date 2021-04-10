@@ -3,4 +3,10 @@ client:
     hostname: local.dod.la
     restart: always
     build: .
-    ports: ['8085:8085']
+    ports:
+        - '8085:8085'
+    volumes:
+        - ./dod-external-integrations-template/src:/build/dod-external-integrations-template/src
+        - ./dod-external-integrations-template/.eslintrc.js:/build/dod-external-integrations-template/.eslintrc.js
+        - ./dod-external-integrations-template/.prettierrc.js:/build/dod-external-integrations-template/.prettierrc.js
+        - ./dod-external-integrations-template/package.json:/build/dod-external-integrations-template/package.json

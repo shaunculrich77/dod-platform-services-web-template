@@ -1,0 +1,12 @@
+certs
+dist
+
+# Ignore all Vue Templates
+*.vue
+
+# Ignore all misc files
+docker
+tools
+*.json
+*.md
+*.yml

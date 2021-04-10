@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '@/modules/external-integrations-template/pages/index/index.vue';
 
 Vue.use(VueRouter);
 
@@ -8,7 +7,10 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home,
+        component: () =>
+            import(
+                '@/modules/external-integrations-template/pages/index/index.vue'
+            ),
     },
     {
         path: '/about',
@@ -21,8 +23,4 @@ const routes = [
     },
 ];
 
-const router = new VueRouter({
-    routes,
-});
-
-export default router;
+export default routes;
