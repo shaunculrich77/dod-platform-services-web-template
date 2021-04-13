@@ -1,11 +1,12 @@
 {
-    "name": "dod-external-integrations-template",
+    "name": "dod-platform-services-template",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "eslint src/**",
+        "lint": "eslint src/**/**/**/**",
+        "format": "./node_modules/.bin/prettier -w \"src/**/**/**/**/*.js\"",
         "test": "jest"
     },
     "dependencies": {

@@ -16,7 +16,7 @@ const routes = [
         //lazy loaded component
         component: () =>
             import(
-                '@/modules/external-integrations-template/pages/about/about.vue'
+                '@/modules/platform-services-template/pages/about/about.vue'
             ),
     },
 ];

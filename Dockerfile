@@ -10,7 +10,7 @@ COPY . .
 
 EXPOSE 8085
 
-RUN npx prettier --write *.*
+RUN npm run format
 RUN npm run test
 #RUN npm run build
 

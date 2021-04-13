@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mount a vue component 1`] = `
+<div class="v-cloak d-flex flex-column align-items-center"><img alt="Doctor on Deman" src="@/assets/DoD_logo.png" class="img-fluid dod-logo">
+  <h2 class="p-4">External Integrations Web Template</h2>
+  <div>
+    <div class="d-flex flex-row images-divider">
+      <div class="px-4"><img src="@/assets/logo.png" alt="Vue.js logo" title="Vue.js"></div>
+      <div class="px-4"><img src="@/assets/kotlin.png" alt="KMM" title="Kotlin Multiplatform Mobile"></div>
+      <div class="px-4"><img src="@/assets/JavaScript-logo.png" alt="JavaScript" title="JavaScript"></div>
+      <div class="px-4"><img src="@/assets/GitHub-Mark.png" alt="GitHub" title="GitHub"></div>
+      <div class="px-4"><img src="@/assets/vertical-logo-monochromatic.png" alt="Docker" title="Docker"></div>
+      <div class="px-4"><img src="@/assets/bootstrap.png" alt="Bootstrap" title="Bootstrap"></div>
+      <div class="px-4"><img src="@/assets/jest.jpeg" alt="Jest" title="Jest"></div>
+    </div>
+  </div>
+</div>
+`;

@@ -9,7 +9,7 @@ const routes = [
         name: 'Home',
         component: () =>
             import(
-                '@/modules/external-integrations-template/pages/index/index.vue'
+                '@/modules/platform-services-template/pages/index/index.vue'
             ),
     },
     {
@@ -18,7 +18,7 @@ const routes = [
         //lazy loaded component
         component: () =>
             import(
-                '@/modules/external-integrations-template/pages/about/about.vue'
+                '@/modules/platform-services-template/pages/about/about.vue'
             ),
     },
 ];

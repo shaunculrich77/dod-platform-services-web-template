@@ -1,5 +1,5 @@
 <template>
-    <div>Index for Sample Module</div>
+    <div>Index for Sample Module using module level router</div>
 </template>
 
 <script lang="js" src="./index.js"></script>

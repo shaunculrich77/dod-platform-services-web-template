@@ -1,4 +1,4 @@
-# dod-external-integrations-template
+# dod-platform-services-template
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Homebrew
 ```
 1. In a terminal, navigate to the directory where you want to install the app
 2. $ ssh -T git@github.com
-3. $ git clone git@github.com:shaunculrich77/dod-external-integrations-template
+3. $ git clone git@github.com:shaunculrich77/dod-platform-services-template
 ```
 
 ### Self-Signed Local Certificate
